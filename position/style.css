@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive
+}
+body{
+    background-color: black;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./image/8\ \(2\).jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 84%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.body{
+    color: orange;
+}
+.body2{
+    color: orange;
+    font-size: 70px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar ul li::after{
+    content: '';
+    height: 4px;
+    width: 0%;
+    background-color: orange;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    transition: 1s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.content{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 20px;
+    margin-top: 80px;
+}
+.content p{
+    margin-top: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 150px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid orange;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+
+
+}
+span{
+    background-color: orange;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+}
+button:hover span{
+    width: 100%;
+
+}
+button:hover{
+    border: none;
+    border-radius: 1px ;
+    border-bottom: 2px solid orange;
+    transition: 0.5s;
+}
+.complate-container{
+    padding-left: 50px;
+    background-color: black;
+    height: 100vh;
+}
+.complate-header{
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: black;
+}
+.complate-header-text{
+    color: orange;
+    font-size: 50px;
+
+}
+.chiziqcha{
+    width: 60%;
+    height: 5px;
+    background-color: orange;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.col1{
+    width: 50%;
+    margin-top: 50px;
+}
+.bola{
+    margin: 80px 0px;
+}
+ .imga img{
+    width: 100%;
+}
+.col2{
+    width: 50%;
+}
+.img{
+    width: 100%;
+}
+.ota-child{
+    display: flex;
+    justify-content: space-between;
+}
+.col1{
+    width: 50% ;
+    
+}
+.child{
+    width: 300px;
+}
+.child img{
+    width: 90%;
+    height: 200px;
+}
+.bola{
+    color: white;
+}
+.container2{
+    display: flex;
+    padding-right: 50px;
+    justify-content:space-between;
+    align-items: center;
+}
+.chiziqcha2{
+    width: 60%;
+    height: 5px;
+    background-color: orange;
+}
+.complate-header-text2{
+    color: orange;
+    font-size: 50px;
+}
+.row2{
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.farzand{
+    width: 23%;
+    margin: 15px;
+}
+.farzand img{
+    width: 100%;
+    height: 200px;
+}
+.complate-container2{
+    background-color: black;
+}
+p{
+    color: orange;
+}
+.complate-header-text2{
+    color: orange;
+    font-size: 30px;
+
+}
+.row3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.col3 img{
+width: 490px;
+margin-top: 10px;
+height: 200px;
+}
+.col{
+    width: 30%;
+    height: 250px;
+    margin: 10px 15px;
+    background-color: rgb(33, 32, 32);
+    border-left: 3px solid orange;
+    text-align: center;
+    padding: 15px 10ph1x;
+    color: white;
+}
+.complate-header2{
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: black;
+}
+.complate-header2-text2{
+    font-size: 30px;
+    color: white;
+    margin: 40px 0px;
+}
+.row5{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.obey-col:nth-child(1){
+    height:250px;
+    background-color: rgb(22, 22, 22);
+
+    width: 30%;
+    padding: 20px;
+}
+.obey-col-inp{
+    background-color: rgb(22, 22, 22);
+    color: orange;
+    width: 100%;
+    padding-bottom:10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orange;
+    margin-bottom: 30px;
+    height: 50px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
